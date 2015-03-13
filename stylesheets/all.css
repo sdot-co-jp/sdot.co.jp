@@ -1,0 +1,253 @@
+/* line 5, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 3, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_common.scss */
+body {
+  background-color: black;
+  color: white; }
+
+/* line 13, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_common.scss */
+footer .logo {
+  background: url("/images/logo-100.png") 50% 50% no-repeat;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  margin: 0 auto 15px;
+  display: block; }
+/* line 23, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_common.scss */
+footer .copyright {
+  display: block;
+  background: url("/images/copyright.png") 50% 50% no-repeat;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  text-indent: -9999px;
+  width: 195px;
+  height: 13px;
+  margin: 0 auto 40px; }
+
+/* line 6, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_retina_sprites.scss */
+#index #main .mainNav li a.collections, #index #main .mainNav li a.collections:hover, #index #main .mainNav li a.presentations, #index #main .mainNav li a.presentations:hover, #index #main .mainNav li a.presentations.disabled:hover, #index #main .mainNav li a.informations, #index #main .mainNav li a.informations:hover, #collections .hub li.drawings a, #collections .hub li.drawings a:hover, #collections .hub li.compositions a, #collections .hub li.compositions a:hover, #informations .logo, #informations .texts, #informations .mailAddress, #informations .mailAddress:hover {
+  background-image: url("/images/sprites-s4a9bc01822.png");
+  background-repeat: no-repeat;
+  -moz-background-size: 281px auto;
+  -o-background-size: 281px auto;
+  -webkit-background-size: 281px auto;
+  background-size: 281px auto; }
+
+/* line 9, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+#index #splash {
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none; }
+  /* line 18, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+  #index #splash .logoImage {
+    background: url("/images/logo-200.png") 50% 50% no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    text-indent: -9999px; }
+/* line 31, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+#index #main {
+  display: none; }
+  /* line 34, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+  #index #main .mainImage {
+    background: url("/images/main.jpg") 50% 50% no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    text-indent: -9999px;
+    width: 840px;
+    height: 594px;
+    margin: 20px auto; }
+  /* line 43, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+  #index #main .mainNav {
+    width: 840px;
+    margin: 0 auto 38px;
+    overflow: hidden; }
+    /* line 47, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+    #index #main .mainNav li {
+      float: left;
+      width: 33.33%;
+      text-align: center; }
+      /* line 51, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+      #index #main .mainNav li a {
+        display: inline-block;
+        text-indent: -9999px;
+        background: 50% 50% no-repeat; }
+        /* line 55, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+        #index #main .mainNav li a.disabled {
+          opacity: 0.5; }
+        /* line 58, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+        #index #main .mainNav li a.collections {
+          background-position: 0 0;
+          width: 117px;
+          height: 24px; }
+          /* line 60, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+          #index #main .mainNav li a.collections:hover {
+            background-position: 0 -24px; }
+        /* line 66, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+        #index #main .mainNav li a.presentations {
+          background-position: 0 -341px;
+          width: 141px;
+          height: 24px; }
+          /* line 68, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+          #index #main .mainNav li a.presentations:hover {
+            background-position: 0 -365px; }
+            /* line 70, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+            #index #main .mainNav li a.presentations:hover.disabled {
+              background-position: 0 -341px; }
+        /* line 77, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+        #index #main .mainNav li a.informations {
+          background-position: 0 -156px;
+          width: 135px;
+          height: 24px; }
+          /* line 79, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+          #index #main .mainNav li a.informations:hover {
+            background-position: 0 -180px; }
+@media screen and (max-width: 568px) {
+  /* line 92, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+  #index #mainImage {
+    width: 280px;
+    height: 198px; }
+  /* line 96, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+  #index #mainNav {
+    width: 100%; }
+    /* line 98, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_index.scss */
+    #index #mainNav li {
+      float: none;
+      width: 100%;
+      margin-bottom: 5px; } }
+
+/* line 9, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+#collections .hub {
+  margin-bottom: 287px; }
+  /* line 12, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+  #collections .hub li {
+    text-align: center; }
+    /* line 14, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+    #collections .hub li a {
+      display: inline-block;
+      text-indent: -9999px;
+      background: 50% 50% no-repeat; }
+  /* line 21, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+  #collections .hub li.drawings {
+    margin-top: 320px; }
+    /* line 24, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+    #collections .hub li.drawings a {
+      background-position: 0 -102px;
+      width: 97px;
+      height: 27px; }
+      /* line 26, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+      #collections .hub li.drawings a:hover {
+        background-position: 0 -129px; }
+  /* line 34, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+  #collections .hub li.compositions {
+    margin-top: 35px; }
+    /* line 37, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+    #collections .hub li.compositions a {
+      background-position: 0 -48px;
+      width: 139px;
+      height: 27px; }
+      /* line 39, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_collections.scss */
+      #collections .hub li.compositions a:hover {
+        background-position: 0 -75px; }
+
+/* line 13, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_informations.scss */
+#informations .logo {
+  text-indent: -9999px;
+  background-position: 0 -204px;
+  width: 80px;
+  height: 80px;
+  margin: 40px auto 0; }
+/* line 21, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_informations.scss */
+#informations .texts {
+  text-indent: -9999px;
+  background-position: 0 -389px;
+  width: 281px;
+  height: 585px;
+  margin: 20px auto 0;
+  position: relative;
+  margin-bottom: 36px; }
+/* line 32, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_informations.scss */
+#informations .mailAddress {
+  position: absolute;
+  left: 120px;
+  top: 568px;
+  background-position: 0 -285px;
+  width: 117px;
+  height: 28px; }
+  /* line 39, /Users/stud/git/sdot-co-jp/sn/sdot.co.jp/source/stylesheets/_informations.scss */
+  #informations .mailAddress:hover {
+    background-position: 0 -313px; }
